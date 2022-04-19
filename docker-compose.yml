@@ -1,7 +1,7 @@
 version: "3"
 services:
   myapp:
-    image: app_eval_1_docker/app:latest
+    image: app_eval_1/app:latest
     container_name: app
     ports:
       - "8080:8080"
